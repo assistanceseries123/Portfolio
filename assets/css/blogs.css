@@ -1,0 +1,12 @@
+*{
+    margin: 6px;
+}
+body{
+    background-color: antiquewhite;
+    font: 1.2rem "Roboto Slab", serif;
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+body{
+    background-color: antiquewhite;
+    margin: 12px;
+    padding: 12px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word; 
+    gap: 12px;   
+    flex-wrap: wrap;
+}
+p{
+    width: 80%;
+    text-align: center;
+    text-wrap: pretty;
+}
+.align-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.development img{
+    width: 100%;
+}
+
+.analysis img{
+    width: 68%;
+}
+
+.analysis p{
+    width: 60%;
+}
+
+.machine img{
+    width: 75%;
+}
+
+.machine p{
+    width: 65%;
+}
